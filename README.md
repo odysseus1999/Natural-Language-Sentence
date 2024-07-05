@@ -1,18 +1,4 @@
-# geograpy3
-[![Join the discussion at https://github.com/somnathrakshit/geograpy3/discussions](https://shields.io/badge/GitHub-%20Discussions-blue?logo=github)](https://github.com/somnathrakshit/geograpy3/discussions)
-[![Documentation Status](https://readthedocs.org/projects/geograpy3/badge/?version=latest)](https://geograpy3.readthedocs.io/en/latest/?badge=latest)
-[![pypi](https://img.shields.io/pypi/pyversions/geograpy3)](https://pypi.org/project/geograpy3/)
-[![Github Actions Build](https://github.com/somnathrakshit/geograpy3/workflows/Build/badge.svg?branch=master)](https://github.com/somnathrakshit/geograpy3/actions?query=workflow%3ABuild+branch%3Amaster)
-[![PyPI Status](https://img.shields.io/pypi/v/geograpy3.svg)](https://pypi.python.org/pypi/geograpy3/)
-[![Downloads](https://pepy.tech/badge/geograpy3)](https://pepy.tech/project/geograpy3)
-[![GitHub issues](https://img.shields.io/github/issues/somnathrakshit/geograpy3.svg)](https://github.com/somnathrakshit/geograpy3/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/somnathrakshit/geograpy3.svg)](https://github.com/somnathrakshit/geograpy3/issues/?q=is%3Aissue+is%3Aclosed)
-[![License](https://img.shields.io/github/license/somnathrakshit/geograpy3.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-
-geograpy3 is a fork of [geograpy2](https://github.com/Corollarium/geograpy2), which is itself a fork of [geograpy](https://github.com/ushahidi/geograpy) and inherits most of it, but solves several problems (such as support for utf8, places names
-with multiple words, confusion over homonyms etc). Also, geograpy3 is compatible with Python 3, unlike geograpy2.
-
-since geograpy3 0.0.2 cities,countries and regions are matched against a database derived from the corresponding wikidata entries
+# NATURAL LANGUAGE SENTENCE
 
 What it is
 ==========
@@ -23,8 +9,6 @@ The extraction is a two step process. The first process is a Natural Language Pr
 
 If you already know that your content has geographic information you might want to use the Locator interface directly.
 
-## Examples/Tutorial
-* [see Examples/Tutorial Wiki](http://wiki.bitplan.com/index.php/Geograpy#Examples)
 
 ## Install & Setup
 
@@ -42,7 +26,7 @@ geograpy-nltk
 
 ## Getting the source code
 ```bash
-git clone https://github.com/somnathrakshit/geograpy3
+git clone https://github.com/odysseus1999/Natural-Language-Sentence.git
 cd geograpy3
 scripts/install
 ```
@@ -143,4 +127,3 @@ geograpy3 uses the following data sources:
 * [ISO3166ErrorDictionary](https://github.com/bodacea/countryname/blob/master/countryname/databases/ISO3166ErrorDictionary.csv) for common country mispellings _via [Sara-Jayne Terp](https://github.com/bodacea)_
 * [Wikidata](https://www.wikidata.org) for country/region/city information with disambiguation via population
 
-Hat tip to [Chris Albon](https://github.com/chrisalbon) for the name.
